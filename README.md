@@ -1,9 +1,10 @@
-🍜 GiRanuRamen - Template Website Restoran GR001
-PENTING:
+### 🍜 GiRanuRamen - Template Website Restoran GR001
+ 
+# PENTING:
 Template ini LOCALHOST ONLY - artinya cuma jalan di browser doang, belum bisa kirim pesanan beneran ke dapur. Buat yang butuh sistem lengkap (backend + database), bisa hubungi aku untuk custom project! made with love deh pokonya.
 
 
-🚀 Gimana Cara Pakainya?
+# 🚀 Gimana Cara Pakainya?
 Gampang banget, cuma 3 langkah:
 -Langkah 1: Download File
 Download file ZIP yang kamu beli
@@ -39,13 +40,13 @@ Buka file style.css, cari bagian paling atas yang ada tulisan :root, ganti kode 
     --dark: #333333;       /* Warna hitam */
 }
 ```
-📱 Tampilan di HP & Laptop
+#📱 Tampilan di HP & Laptop
 -Template ini bisa dibuka di:
 -iPhone/Android (HP)
 -iPad/Tablet
 -Laptop/Komputer
 
-🛠 Kalau Mau Nambah Fitur Gimanaaa?
+# 🛠 Kalau Mau Nambah Fitur Gimanaaa?
 Mau tambah fitur sendiri? BOLEEEEHHH:
 1. Tambah Kategori Menu:
 Di `index.html`, cari bagian tombol filter, tambah button baru
@@ -57,7 +58,7 @@ Cari semua tulisan Indonesia di `index.html`, ganti ke bahasa yang kamu mau
 3. Tambah Menu:
 Copy-paste salah satu objek menu di `script.js`, ganti data sesuai menu baru
 
-⚠️ Yang Perlu Kamu Tahu
+# ⚠️ Yang Perlu Kamu Tahu
 Fitur yang ADA:
 ✅ Simpan pesanan sementara di browser
 ✅ Hitung total otomatis
@@ -65,7 +66,7 @@ Fitur yang ADA:
 ✅ Notifikasi
 ✅ Cetak bill
 
-Fitur yang TIDAK ADA:
+# Fitur yang TIDAK ADA:
 ❌ Kirim pesanan ke WhatsApp/email
 ❌ Simpan data permanen (kalo refresh browser, hilang)
 ❌ Login admin
@@ -73,13 +74,13 @@ Fitur yang TIDAK ADA:
 
 Kalau butuh fitur-fitur itu, perlu buat bikin backend-nya ya!.
 
-🆘 Butuh Bantuan?
+# 🆘 Butuh Bantuan?
 Kalo ada yang nggak ngerti:
 Tonton video tutorialnya (cek email, aku kirim linknya)
 Email ke: 
 WhatsApp:
 
-📝 Lisensi & Hak Pakai
+# 📝 Lisensi & Hak Pakai
 Dengan beli template ini, kamu boleh:
 ✅ Pakai untuk restoran atau usaha makanan kamu sendiri
 ✅ Ganti semua teks & gambar
@@ -89,7 +90,7 @@ Yang nggak boleh:
 ❌ Jual ulang template ini ke orang lain
 ❌ Klaim template ini buatan kamu sendiri
 
-💖 Credits
+# 💖 Credits
 Template dibuat dengan cinta oleh CodingWithRaan
 Icons dari Font Awesome
 Gambar contoh dari Unsplash
@@ -99,5 +100,5 @@ Dapet video tutorial 15 menit + 3 template invoice excel buat kasir!
 
 makasih semoga bermanfaat ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
 
-© 2024 CodingWithRaan. Template No. GR001
+# © 2024 CodingWithRaan. Template No. GR001
 
