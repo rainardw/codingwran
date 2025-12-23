@@ -1,4 +1,3 @@
-// Data menu GiRanuRamen - Lengkap
 const menuItems = [
     // ================== RAMEN ==================
     {
@@ -7,7 +6,7 @@ const menuItems = [
         description: "Ramen dengan kaldu ayam gurih dan kecap shoyu, dilengkapi chashu, telur, dan nori.",
         price: 45000,
         category: "ramen",
-        image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1623341214825-9f4f963727da?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 2,
@@ -31,7 +30,7 @@ const menuItems = [
         description: "Ramen dengan kuah asin gurih yang ringan, dilengkapi seafood dan sayuran segar.",
         price: 47000,
         category: "ramen",
-        image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1630841539293-b206b78b9527?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 5,
@@ -39,7 +38,7 @@ const menuItems = [
         description: "Ramen dengan kuah kari Jepang yang kental, disajikan dengan ayam katsu.",
         price: 55000,
         category: "ramen",
-        image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1591814468924-caf88d1232e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 6,
@@ -47,7 +46,7 @@ const menuItems = [
         description: "Ramen dengan kaldu seafood gurih, dilengkapi udang, cumi, dan kerang.",
         price: 58000,
         category: "ramen",
-        image: "https://images.unsplash.com/photo-1557872943-16a5ac26437e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1565809099582-1d9e08b34588?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 7,
@@ -55,7 +54,217 @@ const menuItems = [
         description: "Ramen vegetarian dengan kaldu sayuran, tahu, jamur, dan sayuran segar.",
         price: 42000,
         category: "ramen",
-        image: "https://images.unsplash.com/photo-1552611052-33e04de081de?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 34,
+        name: "Black Garlic Ramen",
+        description: "Ramen dengan kuah tonkotsu yang dicampur bawang hitam, memberikan rasa yang dalam dan unik.",
+        price: 56000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 35,
+        name: "Tsukemen",
+        description: "Mie yang disajikan terpisah dengan kuah kental, memungkinkan Anda mencelupkan mie ke kuah.",
+        price: 53000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1623341214825-9f4f963727da?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 36,
+        name: "Tantanmen Ramen",
+        description: "Ramen dengan kuah pedas khas Sichuan, menggunakan daging babi cincang dan wijen.",
+        price: 57000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1617093727343-5a0c4b67aae7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 37,
+        name: "Chicken Paitan Ramen",
+        description: "Ramen dengan kuah ayam putih yang kaya dan creamy, dilengkapi daging ayam empuk.",
+        price: 51000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1557872943-16a5ac26437e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 56,
+        name: "Mazemen",
+        description: "Ramen tanpa kuah dengan saus kental yang melapisi mie, disajikan dengan telur mentah.",
+        price: 54000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 57,
+        name: "Chashu Ramen",
+        description: "Ramen dengan potongan chashu yang melimpah, direndam dalam saus spesial.",
+        price: 60000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1623341214825-9f4f963727da?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 58,
+        name: "Kimchi Ramen",
+        description: "Ramen dengan tambahan kimchi segar, memberikan rasa asam pedas yang segar.",
+        price: 52000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 59,
+        name: "Double Soup Ramen",
+        description: "Perpaduan dua jenis kaldu (ayam dan babi) yang menciptakan rasa yang kompleks.",
+        price: 58000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1557872943-16a5ac26437e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 60,
+        name: "Hiyashi Chuka",
+        description: "Ramen dingin dengan mie kenyal, saus wijen, dan topping segar.",
+        price: 47000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1630841539293-b206b78b9527?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 61,
+        name: "Tokyo Style Ramen",
+        description: "Ramen gaya Tokyo dengan kuah shoyu yang jernih dan chashu lembut.",
+        price: 49000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1623341214825-9f4f963727da?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 62,
+        name: "Sapporo Miso Ramen",
+        description: "Miso ramen gaya Sapporo dengan tambahan mentega dan jagung.",
+        price: 56000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1557872943-16a5ac26437e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 63,
+        name: "Hakata Tonkotsu Ramen",
+        description: "Ramen gaya Hakata dengan kuah tonkotsu yang putih kental dan mie tipis.",
+        price: 57000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1617093727343-5a0c4b67aae7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 64,
+        name: "Vegan Ramen",
+        description: "Ramen 100% vegan dengan kaldu sayuran dan protein nabati.",
+        price: 44000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 65,
+        name: "Spicy Miso Ramen",
+        description: "Miso ramen dengan level pedas yang dapat disesuaikan.",
+        price: 54000,
+        category: "ramen",
+        image: "https://images.unsplash.com/photo-1557872943-16a5ac26437e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    
+    // ================== SUSHI ==================
+    {
+        id: 66,
+        name: "Salmon Nigiri (2 pcs)",
+        description: "Irisan salmon segar di atas nasi sushi, disajikan dengan wasabi.",
+        price: 35000,
+        category: "sushi",
+        image: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 67,
+        name: "Tuna Nigiri (2 pcs)",
+        description: "Irisan tuna segar di atas nasi sushi, kaya akan protein.",
+        price: 38000,
+        category: "sushi",
+        image: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 68,
+        name: "California Roll (8 pcs)",
+        description: "Roll dengan kepiting, alpukat, dan mentimun, dibalur tobiko.",
+        price: 45000,
+        category: "sushi",
+        image: "https://images.unsplash.com/photo-1553621042-f6e147245754?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 69,
+        name: "Spicy Tuna Roll (8 pcs)",
+        description: "Roll dengan tuna pedas dan mentimun, dibalur saus pedas.",
+        price: 48000,
+        category: "sushi",
+        image: "https://images.unsplash.com/photo-1553621042-f6e147245754?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 70,
+        name: "Ebi Tempura Roll (8 pcs)",
+        description: "Roll dengan udang tempura, alpukat, dan saus spesial.",
+        price: 52000,
+        category: "sushi",
+        image: "https://images.unsplash.com/photo-1553621042-f6e147245754?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 71,
+        name: "Salmon Avocado Roll (8 pcs)",
+        description: "Roll dengan salmon segar dan alpukat, sederhana namun lezat.",
+        price: 47000,
+        category: "sushi",
+        image: "https://images.unsplash.com/photo-1553621042-f6e147245754?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 72,
+        name: "Rainbow Roll (8 pcs)",
+        description: "California roll dengan berbagai irisan ikan segar di atasnya.",
+        price: 58000,
+        category: "sushi",
+        image: "https://images.unsplash.com/photo-1553621042-f6e147245754?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 73,
+        name: "Dragon Roll (8 pcs)",
+        description: "Roll dengan unagi dan alpukat, dibentuk seperti naga.",
+        price: 62000,
+        category: "sushi",
+        image: "https://images.unsplash.com/photo-1553621042-f6e147245754?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 74,
+        name: "Sashimi Mix (12 pcs)",
+        description: "Berbagai irisan ikan segar (salmon, tuna, yellowtail), tanpa nasi.",
+        price: 85000,
+        category: "sushi",
+        image: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 75,
+        name: "Unagi Nigiri (2 pcs)",
+        description: "Ikan belut panggang dengan saus unagi di atas nasi sushi.",
+        price: 42000,
+        category: "sushi",
+        image: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 76,
+        name: "Caterpillar Roll (8 pcs)",
+        description: "Roll dengan unagi dan mentimun, dilapisi alpukat seperti ulat.",
+        price: 56000,
+        category: "sushi",
+        image: "https://images.unsplash.com/photo-1553621042-f6e147245754?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 77,
+        name: "Spider Roll (8 pcs)",
+        description: "Roll dengan soft shell crab goreng, alpukat, dan mentimun.",
+        price: 59000,
+        category: "sushi",
+        image: "https://images.unsplash.com/photo-1553621042-f6e147245754?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     
     // ================== APPETIZER / HIDANGAN PEMBUKA ==================
@@ -65,7 +274,7 @@ const menuItems = [
         description: "Ayam goreng khas Jepang dengan balutan tepung yang renyah, disajikan dengan saus mayo.",
         price: 35000,
         category: "appetizer",
-        image: "https://images.unsplash.com/photo-1562967916-eb82221dfb92?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1626074353765-517a681e40be?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 9,
@@ -81,7 +290,7 @@ const menuItems = [
         description: "Kacang edamame rebus dengan taburan garam laut, camilan sehat dan nikmat.",
         price: 18000,
         category: "appetizer",
-        image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1596703923338-48f1c07e4f2e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 11,
@@ -89,7 +298,7 @@ const menuItems = [
         description: "Bola-bola gurih berisi potongan gurita, disajikan dengan saus takoyaki.",
         price: 28000,
         category: "appetizer",
-        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1585417791023-7b68d3fda30f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 12,
@@ -105,6 +314,38 @@ const menuItems = [
         description: "Salad rumput laut segar dengan dressing wijen yang khas.",
         price: 22000,
         category: "appetizer",
+        image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 38,
+        name: "Chawanmushi",
+        description: "Custard telur kukus dengan isi jamur, ayam, dan udang, disajikan hangat.",
+        price: 30000,
+        category: "appetizer",
+        image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 39,
+        name: "Ebi Fry (3 pcs)",
+        description: "Udang goreng dengan tepung roti, disajikan dengan saus tartar.",
+        price: 38000,
+        category: "appetizer",
+        image: "https://images.unsplash.com/photo-1562967916-eb82221dfb92?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 40,
+        name: "Harumaki (4 pcs)",
+        description: "Spring roll isi sayuran dan daging, goreng renyah, disajikan dengan saus asam manis.",
+        price: 27000,
+        category: "appetizer",
+        image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 41,
+        name: "Hiyayakko",
+        description: "Tahu dingin dengan topping katsuobushi, jahe, dan daun bawang.",
+        price: 20000,
+        category: "appetizer",
         image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     
@@ -115,7 +356,7 @@ const menuItems = [
         description: "Ayam goreng tepung krispi dengan saus spesial, cocok sebagai hidangan tambahan.",
         price: 38000,
         category: "side",
-        image: "https://images.unsplash.com/photo-1562967916-eb82221dfb92?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 15,
@@ -123,7 +364,7 @@ const menuItems = [
         description: "Udang goreng tepung tempura yang renyah, disajikan dengan saus tempura.",
         price: 42000,
         category: "side",
-        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 16,
@@ -131,7 +372,7 @@ const menuItems = [
         description: "Sate ayam khas Jepang dengan saus yakitori yang manis gurih.",
         price: 30000,
         category: "side",
-        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1583623025817-1801705d5752?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 17,
@@ -139,7 +380,7 @@ const menuItems = [
         description: "Nasi kepal isi tuna mayo, salmon, atau plum, dibungkus nori.",
         price: 25000,
         category: "side",
-        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 18,
@@ -147,7 +388,39 @@ const menuItems = [
         description: "Kroket kentang isi daging cincang, goreng renyah.",
         price: 28000,
         category: "side",
-        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1615361200145-ea6e6c5f4b5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 42,
+        name: "Kushikatsu (5 tusuk)",
+        description: "Berbagai macam bahan digoreng dengan tusukan, disajikan dengan saus spesial.",
+        price: 35000,
+        category: "side",
+        image: "https://images.unsplash.com/photo-1583623025817-1801705d5752?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 43,
+        name: "Okonomiyaki Mini",
+        description: "Panekuk Jepang versi mini dengan topping sesuai selera.",
+        price: 32000,
+        category: "side",
+        image: "https://images.unsplash.com/photo-1585417791023-7b68d3fda30f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 44,
+        name: "Nasu Dengaku",
+        description: "Terong panggang dengan saus miso manis, lembut dan gurih.",
+        price: 26000,
+        category: "side",
+        image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 45,
+        name: "Buta Kakuni",
+        description: "Potongan daging babi yang dimasak hingga empuk dengan bumbu khas.",
+        price: 45000,
+        category: "side",
+        image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     
     // ================== DESSERT & JAJANAN ==================
@@ -173,7 +446,7 @@ const menuItems = [
         description: "Kue berbentuk ikan dengan berbagai isian, seperti coklat, kacang merah, atau keju.",
         price: 18000,
         category: "dessert",
-        image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1628992682633-bf2d40cb595f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 22,
@@ -189,7 +462,7 @@ const menuItems = [
         description: "Mochi yang terbuat dari tepung warabi, disajikan dengan kinako dan kuah gula.",
         price: 25000,
         category: "dessert",
-        image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+        image: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
         id: 24,
@@ -205,7 +478,39 @@ const menuItems = [
         description: "Mochi berisi kacang merah manis, tersedia berbagai varian rasa.",
         price: 22000,
         category: "dessert",
+        image: "https://images.unsplash.com/photo-1615361200145-ea6e6c5f4b5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 46,
+        name: "Matcha Parfait",
+        description: "Parfait dengan lapisan matcha, es krim, sereal, dan buah.",
+        price: 38000,
+        category: "dessert",
+        image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 47,
+        name: "Shiratama Dango (3 pcs)",
+        description: "Bola-bola tepung beras dengan tekstur kenyal, disajikan dengan kuah gula.",
+        price: 23000,
+        category: "dessert",
         image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 48,
+        name: "Purple Sweet Potato Tart",
+        description: "Tart dengan isi ubi ungu manis, tekstur lembut dan rasa alami.",
+        price: 32000,
+        category: "dessert",
+        image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 49,
+        name: "Yokan",
+        description: "Jelly manis dari kacang merah, tekstur padat dan tidak terlalu manis.",
+        price: 19000,
+        category: "dessert",
+        image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     
     // ================== MINUMAN ==================
@@ -272,6 +577,54 @@ const menuItems = [
         price: 35000,
         category: "drink",
         image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 50,
+        name: "Royal Milk Tea",
+        description: "Teh susu khas Jepang dengan rasa creamy, disajikan panas atau dingin.",
+        price: 20000,
+        category: "drink",
+        image: "https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 51,
+        name: "Yuzu Tea",
+        description: "Teh dengan rasa yuzu yang segar, kaya vitamin C.",
+        price: 22000,
+        category: "drink",
+        image: "https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 52,
+        name: "Iced Hojicha",
+        description: "Teh hojicha panggang yang disajikan dingin, rendah kafein.",
+        price: 19000,
+        category: "drink",
+        image: "https://images.unsplash.com/photo-1559177581-515ac74a46d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 53,
+        name: "Sake (1 botol kecil)",
+        description: "Minuman beralkohol tradisional Jepang dari fermentasi beras.",
+        price: 85000,
+        category: "drink",
+        image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 54,
+        name: "Green Tea Smoothie",
+        description: "Smoothie dengan matcha, pisang, dan madu, menyegarkan dan sehat.",
+        price: 32000,
+        category: "drink",
+        image: "https://images.unsplash.com/photo-1559177581-515ac74a46d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        id: 55,
+        name: "Fruit Soda Float",
+        description: "Soda dengan es krim vanilla dan buah segar pilihan.",
+        price: 28000,
+        category: "drink",
+        image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     }
 ];
 
@@ -395,19 +748,61 @@ function removeNotification(notification) {
     }, 500);
 }
 
-// Fungsi alert sederhana (tanpa modal custom)
+// Fungsi alert menggunakan modal custom
 function showAlert(title, message, type = 'info') {
     return new Promise((resolve) => {
-        if (type === 'warning' || type === 'error') {
-            if (confirm(`${title}\n\n${message}\n\nKlik OK untuk melanjutkan.`)) {
-                resolve(true);
-            } else {
-                resolve(false);
-            }
-        } else {
+        if (!customModal) {
+            // Jika modal tidak ada, fallback ke alert biasa (sebagai cadangan)
             alert(`${title}\n\n${message}`);
             resolve(true);
+            return;
         }
+
+        // Set konten modal
+        modalTitle.textContent = title;
+        modalSubtitle.textContent = '';
+        modalMessage.textContent = message;
+
+        // Atur ikon berdasarkan type
+        const icons = {
+            'success': 'fas fa-check-circle',
+            'error': 'fas fa-exclamation-circle',
+            'warning': 'fas fa-exclamation-triangle',
+            'info': 'fas fa-info-circle'
+        };
+        modalIcon.innerHTML = `<i class="${icons[type] || 'fas fa-info-circle'}"></i>`;
+
+        // Tampilkan tombol cancel hanya jika type warning/error
+        modalCancelBtn.style.display = type === 'warning' || type === 'error' ? 'inline-block' : 'none';
+
+        // Tampilkan modal
+        customModal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+
+        // Handle tombol confirm
+        modalConfirmBtn.onclick = () => {
+            customModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+            resolve(true);
+        };
+
+        // Handle tombol cancel
+        modalCancelBtn.onclick = () => {
+            customModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+            resolve(false);
+        };
+
+        // Tutup modal jika klik ESC
+        const handleEsc = (e) => {
+            if (e.key === 'Escape') {
+                customModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+                resolve(false);
+                document.removeEventListener('keydown', handleEsc);
+            }
+        };
+        document.addEventListener('keydown', handleEsc);
     });
 }
 
@@ -442,6 +837,7 @@ function renderMenuItems(filter = 'all') {
         
         const categoryText = {
             'ramen': 'Ramen',
+            'sushi': 'Sushi',
             'appetizer': 'Appetizer',
             'side': 'Sampingan',
             'dessert': 'Dessert',
@@ -1148,3 +1544,62 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('customerName').value = 'Bapak Budi';
     currentTableSpan.textContent = 'VIP5';
 });
+
+// ===============
+// FAB MENU LOGIC
+// ===============
+const fabButton = document.getElementById('fabButton');
+const fabMenu = document.getElementById('fabMenu');
+const fabMenuCallWaiter = document.getElementById('fabMenuCallWaiter');
+const fabMenuHelp = document.getElementById('fabMenuHelp');
+
+// === FAB MENU INTERACTIONS ===
+if (fabButton && fabMenu) {
+    let isFabOpen = false;
+
+    fabButton.addEventListener('click', () => {
+        isFabOpen = !isFabOpen;
+        fabMenu.style.display = isFabOpen ? 'flex' : 'none';
+        fabButton.innerHTML = isFabOpen 
+            ? '<i class="fas fa-times"></i>' 
+            : '<i class="fas fa-plus"></i>';
+    });
+
+    // Tutup FAB saat klik di luar
+    document.addEventListener('click', (e) => {
+        if (!fabButton.contains(e.target) && !fabMenu.contains(e.target)) {
+            fabMenu.style.display = 'none';
+            fabButton.innerHTML = '<i class="fas fa-plus"></i>';
+            isFabOpen = false;
+        }
+    });
+}
+
+// === CALL WAITER ===
+if (fabMenuCallWaiter) {
+    fabMenuCallWaiter.addEventListener('click', () => {
+        showNotification(
+            'success',
+            'Waiter Dipanggil!',
+            'Waiter akan segera datang ke meja Anda.',
+            5000 // auto-close dalam 5 detik
+        );
+        // Tutup FAB
+        fabMenu.style.display = 'none';
+        fabButton.innerHTML = '<i class="fas fa-plus"></i>';
+    });
+}
+
+// === BANTUAN ===
+if (fabMenuHelp) {
+    fabMenuHelp.addEventListener('click', () => {
+        showNotification(
+            'info',
+            'Butuh Bantuan?',
+            'Silakan hubungi staf kami atau scan QR di meja untuk panduan lengkap.',
+            6000
+        );
+        fabMenu.style.display = 'none';
+        fabButton.innerHTML = '<i class="fas fa-plus"></i>';
+    });
+}
