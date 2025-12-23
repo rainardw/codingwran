@@ -5,15 +5,16 @@ Template ini LOCALHOST ONLY - artinya cuma jalan di browser doang, belum bisa ki
 
 
 ### 🚀 Gimana Cara Pakainya?
-Gampang banget, cuma 3 langkah:
--Langkah 1: Download File
+
+### Gampang banget, cuma 3 langkah:
+- Langkah 1: Download File
 Download file ZIP yang kamu beli
 Ekstrak filenya di folder komputer kamu
--Langkah 2: Buka di Browser
+- Langkah 2: Buka di Browser
 Cari file index.html di foldernya
 Klik 2x file itu (buka pake browser)
 Website langsung jalan!
--Langkah 3: Ganti Data Restoranmu
+- Langkah 3: Ganti Data Restoranmu
 A. Ganti Nama Restoran:
 Buka file index.html pake Notepad/VS Code, cari tulisan "GiRanuRamen" dan ganti dengan nama restoranmu.
 B. Ganti Menu Makanan:
