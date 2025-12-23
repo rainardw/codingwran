@@ -15,9 +15,10 @@ Cari file index.html di foldernya
 Klik 2x file itu (buka pake browser)
 Website langsung jalan!
 - Langkah 3: Ganti Data Restoranmu
-A. Ganti Nama Restoran:
+
+### A. Ganti Nama Restoran:
 Buka file index.html pake Notepad/VS Code, cari tulisan "GiRanuRamen" dan ganti dengan nama restoranmu.
-B. Ganti Menu Makanan:
+### B. Ganti Menu Makanan:
 Buka file script.js, scroll ke bagian atas, cari kode kayak gini:
 ```javascript
 {
@@ -29,9 +30,9 @@ Buka file script.js, scroll ke bagian atas, cari kode kayak gini:
     image: "https://..."      // <-- Ganti link foto menu
 }
 ```
-C. Ganti Foto Menu:
+### C. Ganti Foto Menu:
 Pastikan ganti pake foto produk kamu ya!
-D. Ganti Warna:
+### D. Ganti Warna:
 Buka file style.css, cari bagian paling atas yang ada tulisan :root, ganti kode warna sesuai brand kamu!:
 
 ```css
@@ -41,62 +42,62 @@ Buka file style.css, cari bagian paling atas yang ada tulisan :root, ganti kode 
     --dark: #333333;       /* Warna hitam */
 }
 ```
-###📱 Tampilan di HP & Laptop
--Template ini bisa dibuka di:
--iPhone/Android (HP)
--iPad/Tablet
--Laptop/Komputer
+### 📱 Tampilan di HP & Laptop
+- Template ini bisa dibuka di:
+- iPhone/Android (HP)
+- iPad/Tablet
+- Laptop/Komputer
 
 ### 🛠 Kalau Mau Nambah Fitur Gimanaaa?
 Mau tambah fitur sendiri? BOLEEEEHHH:
-1. Tambah Kategori Menu:
+### 1. Tambah Kategori Menu:
 Di `index.html`, cari bagian tombol filter, tambah button baru
 Di `script.js`, tambah kategori baru di array `menuItems`
 
-2. Ganti Bahasa:
+### 2. Ganti Bahasa:
 Cari semua tulisan Indonesia di `index.html`, ganti ke bahasa yang kamu mau
 
-3. Tambah Menu:
+### 3. Tambah Menu:
 Copy-paste salah satu objek menu di `script.js`, ganti data sesuai menu baru
 
 ### ⚠️ Yang Perlu Kamu Tahu
 Fitur yang ADA:
-✅ Simpan pesanan sementara di browser
-✅ Hitung total otomatis
-✅ Filter menu
-✅ Notifikasi
-✅ Cetak bill
+- ✅ Simpan pesanan sementara di browser
+- ✅ Hitung total otomatis
+- ✅ Filter menu
+- ✅ Notifikasi
+- ✅ Cetak bill
 
 ### Fitur yang TIDAK ADA:
-❌ Kirim pesanan ke WhatsApp/email
-❌ Simpan data permanen (kalo refresh browser, hilang)
-❌ Login admin
-❌ Database
+- ❌ Kirim pesanan ke WhatsApp/email
+- ❌ Simpan data permanen (kalo refresh browser, hilang)
+- ❌ Login admin
+- ❌ Database
 
-Kalau butuh fitur-fitur itu, perlu buat bikin backend-nya ya!.
+### Kalau butuh fitur-fitur itu, perlu buat bikin backend-nya ya!.
 
 ### 🆘 Butuh Bantuan?
 Kalo ada yang nggak ngerti:
-Tonton video tutorialnya (cek email, aku kirim linknya)
-Email ke: 
-WhatsApp:
+- Tonton video tutorialnya (cek email, aku kirim linknya)
+- Email ke: 
+- WhatsApp:
 
 ### 📝 Lisensi & Hak Pakai
 Dengan beli template ini, kamu boleh:
-✅ Pakai untuk restoran atau usaha makanan kamu sendiri
-✅ Ganti semua teks & gambar
-✅ Hosting 
+- ✅ Pakai untuk restoran atau usaha makanan kamu sendiri
+- ✅ Ganti semua teks & gambar
+- ✅ Hosting 
 
 Yang nggak boleh:
-❌ Jual ulang template ini ke orang lain
-❌ Klaim template ini buatan kamu sendiri
+- ❌ Jual ulang template ini ke orang lain
+- ❌ Klaim template ini buatan kamu sendiri
 
 ### 💖 Credits
-Template dibuat dengan cinta oleh CodingWithRaan
-Icons dari Font Awesome
-Gambar contoh dari Unsplash
+- Template dibuat dengan cinta oleh CodingWithRaan
+- Icons dari Font Awesome
+- Gambar contoh dari Unsplash
 
-Bonus buat Early Bird:
+### Bonus buat Early Bird:
 Dapet video tutorial 15 menit + 3 template invoice excel buat kasir!
 
 makasih semoga bermanfaat ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
