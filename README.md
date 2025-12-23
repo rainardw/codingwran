@@ -8,9 +8,11 @@ Template ini LOCALHOST ONLY - artinya cuma jalan di browser doang, belum bisa ki
 
 ### Gampang banget, cuma 3 langkah:
 - Langkah 1: Download File
+  
 Download file ZIP yang kamu beli
 Ekstrak filenya di folder komputer kamu
 - Langkah 2: Buka di Browser
+  
 Cari file index.html di foldernya
 Klik 2x file itu (buka pake browser)
 Website langsung jalan!
@@ -52,6 +54,7 @@ Buka file style.css, cari bagian paling atas yang ada tulisan :root, ganti kode 
 Mau tambah fitur sendiri? BOLEEEEHHH:
 ### 1. Tambah Kategori Menu:
 Di `index.html`, cari bagian tombol filter, tambah button baru
+
 Di `script.js`, tambah kategori baru di array `menuItems`
 
 ### 2. Ganti Bahasa:
