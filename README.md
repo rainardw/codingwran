@@ -25,7 +25,8 @@ Buka file script.js, scroll ke bagian atas, cari kode kayak gini:
     price: 45000,             // <-- Ganti harga
     category: "ramen",        // <-- Kategori (jangan diubah)
     image: "https://..."      // <-- Ganti link foto menu
-}```
+}
+```
 C. Ganti Foto Menu:
 Pastikan ganti pake foto produk kamu ya!
 D. Ganti Warna:
@@ -36,7 +37,8 @@ Buka file style.css, cari bagian paling atas yang ada tulisan :root, ganti kode 
     --primary: #FF6B6B;    /* Warna merah - ganti kalo mau */
     --secondary: #4ECDC4;  /* Warna hijau */
     --dark: #333333;       /* Warna hitam */
-}```
+}
+```
 📱 Tampilan di HP & Laptop
 -Template ini bisa dibuka di:
 -iPhone/Android (HP)
