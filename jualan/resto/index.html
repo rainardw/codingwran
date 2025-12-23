@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiRanuRamen - Pesan Makanan Restoran</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-bowl-food"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>GiRanu<span>Ramen</span></h1>
+                    <p class="tagline">Authentic Japanese Ramen</p>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link active">Beranda</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#order" class="nav-link">Pesan</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <div class="table-number">
+                    <i class="fas fa-chair"></i>
+                    <span>Meja: <span id="currentTable">-</span></span>
+                </div>
+                <div class="cart-icon" id="cartIcon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Ramen Autentik dengan Rasa Terbaik</h2>
+                <p>Nikmati kelezatan ramen dengan bahan-bahan premium dan racikan bumbu rahasia langsung dari Jepang. Pesan sekarang dan rasakan pengalaman kuliner yang tak terlupakan.</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">Lihat Menu</a>
+                    <a href="#order" class="btn btn-secondary">Pesan Sekarang</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Ramen GiRanu">
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section-menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Menu <span>GiRanuRamen</span></h2>
+                <p>Pilihan ramen terbaik dengan bahan-bahan segar dan autentik</p>
+            </div>
+            
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">Semua Menu</button>
+                <button class="filter-btn" data-filter="ramen">Ramen</button>
+                <button class="filter-btn" data-filter="appetizer">Hidangan Pembuka</button>
+                <button class="filter-btn" data-filter="side">Makanan Sampingan</button>
+                <button class="filter-btn" data-filter="dessert">Dessert & Jajanan</button>
+                <button class="filter-btn" data-filter="drink">Minuman</button>
+            </div>
+            
+            <div class="menu-grid">
+                <!-- Menu items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="section-order">
+        <div class="container">
+            <div class="section-header">
+                <h2>Pesan <span>Makanan</span></h2>
+                <p>Isi data pesanan Anda untuk memudahkan waiter kami melayani</p>
+            </div>
+            
+            <div class="order-container">
+                <div class="order-form-container">
+                    <form id="orderForm" class="order-form">
+                        <div class="form-group">
+                            <label for="tableNumber">
+                                <i class="fas fa-chair"></i> Nomor Meja
+                            </label>
+                            <input type="text" id="tableNumber" class="form-control" placeholder="Contoh: 5, A3, VIP2" required>
+                            <small class="form-hint">Ketik nomor meja Anda</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="customerName">
+                                <i class="fas fa-user"></i> Nama Pelanggan
+                            </label>
+                            <input type="text" id="customerName" class="form-control" placeholder="Masukkan nama Anda" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>
+                                <i class="fas fa-credit-card"></i> Metode Pembayaran
+                            </label>
+                            <div class="payment-options">
+                                <label class="payment-option">
+                                    <input type="radio" name="payment" value="cash" checked>
+                                    <div class="payment-card">
+                                        <i class="fas fa-money-bill-wave"></i>
+                                        <span>Tunai</span>
+                                    </div>
+                                </label>
+                                <label class="payment-option">
+                                    <input type="radio" name="payment" value="kris">
+                                    <div class="payment-card">
+                                        <i class="fas fa-credit-card"></i>
+                                        <span>Scan QRIS</span>
+                                    </div>
+                                </label>
+                                <label class="payment-option">
+                                    <input type="radio" name="payment" value="debit">
+                                    <div class="payment-card">
+                                        <i class="fas fa-credit-card"></i>
+                                        <span>Kartu Debit</span>
+                                    </div>
+                                </label>
+                                <label class="payment-option">
+                                    <input type="radio" name="payment" value="credit">
+                                    <div class="payment-card">
+                                        <i class="fas fa-credit-card"></i>
+                                        <span>Kartu Kredit</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="notes">
+                                <i class="fas fa-sticky-note"></i> Catatan Pesanan (Opsional)
+                            </label>
+                            <textarea id="notes" class="form-control" rows="3" placeholder="Contoh: Tidak pakai pedas, tambah telur, dll."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Kirim Pesanan ke Kitchen
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="order-summary">
+                    <div class="summary-header">
+                        <h3>Ringkasan Pesanan</h3>
+                        <button class="btn-icon" id="editCart">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="cart-items-preview" id="cartItemsPreview">
+                        <!-- Cart items preview will be populated by JavaScript -->
+                        <div class="empty-cart">
+                            <i class="fas fa-shopping-bag"></i>
+                            <p>Keranjang belanja kosong</p>
+                        </div>
+                    </div>
+                    
+                    <div class="order-total">
+                        <div class="total-line">
+                            <span>Subtotal</span>
+                            <span id="subtotal">Rp 0</span>
+                        </div>
+                        <div class="total-line">
+                            <span>PPN (10%)</span>
+                            <span id="tax">Rp 0</span>
+                        </div>
+                        <div class="total-line total">
+                            <span>Total Pembayaran</span>
+                            <span id="totalAmount">Rp 0</span>
+                        </div>
+                    </div>
+                    
+                    <div class="order-actions">
+                        <button class="btn btn-secondary btn-block" id="printBill">
+                            <i class="fas fa-print"></i> Cetak Bill
+                        </button>
+                        <button class="btn btn-outline btn-block" id="clearOrderBtn">
+                            <i class="fas fa-trash"></i> Hapus Pesanan
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-bowl-food"></i>
+                        <h3>GiRanu<span>Ramen</span></h3>
+                    </div>
+                    <p class="footer-about">Restoran ramen autentik dengan cita rasa terbaik sejak 2020. Kami menggunakan bahan-bahan segar dan resep rahasia untuk memberikan pengalaman kuliner yang tak terlupakan.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-hours">
+                    <h4>Jam Operasional</h4>
+                    <div class="hours-list">
+                        <div class="hour-item">
+                            <span>Senin - Kamis</span>
+                            <span>10:00 - 21:00</span>
+                        </div>
+                        <div class="hour-item">
+                            <span>Jumat - Minggu</span>
+                            <span>8:00 - 22:00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Hubungi Kami</h4>
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Jl. Tupai No. 88, Kota Cemara</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(021) 8888-9999</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@giranuramen.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 <span>GiRanuRamen</span>. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="modal-overlay" id="overlay"></div>
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-modal-content">
+            <div class="cart-header">
+                <h3>
+                    <i class="fas fa-shopping-bag"></i>
+                    Keranjang Pesanan
+                </h3>
+                <button class="close-modal" id="closeCart">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="cart-body">
+                <div class="cart-items" id="cartItems">
+                    <!-- Cart items will be populated by JavaScript -->
+                    <div class="empty-cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        <p>Keranjang belanja kosong</p>
+                        <a href="#menu" class="btn btn-outline">Lihat Menu</a>
+                    </div>
+                </div>
+                
+                <div class="cart-summary">
+                    <div class="summary-item">
+                        <span>Subtotal</span>
+                        <span id="cartSubtotal">Rp 0</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>PPN (10%)</span>
+                        <span id="cartTax">Rp 0</span>
+                    </div>
+                    <div class="summary-item total">
+                        <span>Total</span>
+                        <span id="cartTotal">Rp 0</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cart-footer">
+                <button class="btn btn-outline" id="clearCartBtn">
+                    <i class="fas fa-trash"></i> Kosongkan
+                </button>
+                <button class="btn btn-primary" id="continueOrder">
+                    <i class="fas fa-arrow-right"></i> Lanjut Pesan
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Center -->
+    <div class="notification-center" id="notificationCenter"></div>
+    <!-- Order Confirmation Modal -->
+<div class="order-confirmation-modal" id="orderConfirmationModal">
+    <div class="confirmation-content">
+        <div class="confirmation-header">
+            <h3>
+                <i class="fas fa-check-circle"></i>
+                Pesanan Terkirim ke Kitchen!
+            </h3>
+            <p>Pesanan Anda telah dikirim dan sedang diproses</p>
+        </div>
+        
+        <div class="confirmation-body">
+            <div class="order-info">
+                <div class="order-info-row">
+                    <span class="order-info-label">Meja</span>
+                    <span class="order-info-value" id="confTableNumber">-</span>
+                </div>
+                <div class="order-info-row">
+                    <span class="order-info-label">Nama Pelanggan</span>
+                    <span class="order-info-value" id="confCustomerName">-</span>
+                </div>
+                <div class="order-info-row">
+                    <span class="order-info-label">Metode Bayar</span>
+                    <span class="order-info-value" id="confPaymentMethod">-</span>
+                </div>
+                <div class="order-info-row">
+                    <span class="order-info-label">Waktu</span>
+                    <span class="order-info-value" id="confOrderTime">-</span>
+                </div>
+            </div>
+            
+            <div class="order-items">
+                <h4 class="order-items-title">Detail Pesanan</h4>
+                <div id="confOrderItems">
+                    <!-- Order items will be populated by JavaScript -->
+                </div>
+            </div>
+            
+            <div class="order-total-confirmation">
+                <div class="total-row">
+                    <span>Subtotal</span>
+                    <span id="confSubtotal">Rp 0</span>
+                </div>
+                <div class="total-row">
+                    <span>PPN (10%)</span>
+                    <span id="confTax">Rp 0</span>
+                </div>
+                <div class="total-row total">
+                    <span>Total Pembayaran</span>
+                    <span id="confTotal">Rp 0</span>
+                </div>
+            </div>
+            
+            <div class="order-notes" id="confOrderNotes" style="display: none;">
+                <strong><i class="fas fa-sticky-note"></i> Catatan:</strong>
+                <p id="confNotesText"></p>
+            </div>
+        </div>
+        
+        <div class="confirmation-footer">
+            <button class="btn btn-success" id="printOrderBtn">
+                <i class="fas fa-print"></i> Cetak Bill
+            </button>
+            <button class="btn btn-outline-primary" id="closeConfirmationBtn">
+                <i class="fas fa-check"></i> Tutup
+            </button>
+        </div>
+    </div>
+</div>
+<!-- Custom Modal -->
+<div class="custom-modal-overlay" id="customModal">
+    <div class="custom-modal">
+        <div class="custom-modal-header">
+            <div class="custom-modal-icon" id="modalIcon">
+                <i class="fas fa-info-circle"></i>
+            </div>
+            <h3 id="modalTitle">Title</h3>
+            <p id="modalSubtitle">Subtitle</p>
+        </div>
+        <div class="custom-modal-body">
+            <p id="modalMessage">Message content goes here</p>
+        </div>
+        <div class="custom-modal-footer">
+            <button class="btn btn-outline" id="modalCancelBtn" style="display: none;">
+                <i class="fas fa-times"></i> Batal
+            </button>
+            <button class="btn btn-primary" id="modalConfirmBtn">
+                <i class="fas fa-check"></i> OK
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Loading Spinner -->
+<div class="spinner-overlay" id="loadingSpinner">
+    <div class="spinner"></div>
+</div>
+
+<!-- Floating Action Button -->
+<button class="fab" id="fabButton">
+    <i class="fas fa-plus"></i>
+</button>
+<div class="fab-menu" id="fabMenu">
+    <a href="#menu" class="fab-menu-item" id="fabMenuHome">
+        <i class="fas fa-home"></i>
+        <span>Beranda</span>
+    </a>
+    <a href="#order" class="fab-menu-item" id="fabMenuOrder">
+        <i class="fas fa-utensils"></i>
+        <span>Pesan Lagi</span>
+    </a>
+    <button class="fab-menu-item" id="fabMenuCallWaiter">
+        <i class="fas fa-bell"></i>
+        <span>Panggil Waiter</span>
+    </button>
+    <button class="fab-menu-item" id="fabMenuHelp">
+        <i class="fas fa-question-circle"></i>
+        <span>Bantuan</span>
+    </button>
+</div>
+<section id="queue" class="section-order" style="display: none;">
+    <div class="container">
+        <div class="section-header">
+            <h2>Antrian <span>Pesanan</span></h2>
+            <p>Status pesanan yang sedang diproses kitchen</p>
+        </div>
+        
+        <div class="order-queue">
+            <div class="queue-header">
+                <h3>
+                    <i class="fas fa-clock"></i>
+                    Pesanan Sedang Diproses
+                </h3>
+                <span class="queue-badge" id="queueCount">0 Pesanan</span>
+            </div>
+            
+            <div class="queue-list" id="queueList">
+                <div class="empty-queue" style="text-align: center; padding: 40px 20px; color: var(--gray);">
+                    <i class="fas fa-clock" style="font-size: 48px; margin-bottom: 15px; opacity: 0.5;"></i>
+                    <p>Tidak ada pesanan dalam antrian</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</section>
+</body>
+</html>
